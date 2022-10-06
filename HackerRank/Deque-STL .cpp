@@ -41,7 +41,7 @@ void print(int arr[], int n, int k){
         }    
     }
     cout << '\n' ;
-
+}
 int main()
 {
 
