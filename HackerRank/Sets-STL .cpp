@@ -23,13 +23,16 @@ int main()
             cin >> type >> query;
             switch (type)
             {
+                            // if type = 1 : add query to the set
                 case 1:
                     se.insert(query);
                     break;
+                            // if type = 2 : remove query to the set
                 case 2:
                     se.erase(query);
                     break;
                 case 3:
+                             // if type = 2 : print yes if the query founded in the set otherwise no
                     cout << (se.find(query) == se.end() ? "No\n" : "Yes\n");
                     break;
             }
