@@ -1,5 +1,5 @@
 // Problem Link: https://www.hackerrank.com/challenges/prettyprint/problem
-// Langugae: C
+// Langugae: CPP
 // User: mahmoud_gamal_a3
 
 
