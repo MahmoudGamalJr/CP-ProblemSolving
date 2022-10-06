@@ -29,18 +29,22 @@ int main()
                 cin >> x;
                 cin >> y;
                 mp[x] += y;
+                // added y to map of (x)
             }
             else if (q == 2)
             {
                 cin >> x;
                 mp.erase(x);
+                // remove x from the map
             }
             else
             {
                 cin >> x ;
+                // iterate to find x in the map
                 map<string,int>::iterator it = mp.find(x);
                 if (it != mp.end())
                 {
+                    // if map of it not founded in the map print
                     cout << mp[x] << '\n';
                 }
                 else
