@@ -16,11 +16,13 @@ int main()
 
         int n;
         cin >> n;
+        // size of vector
         vector <int> ve(n);
         for(auto &i : ve)
         {
             cin >> i;
         }
+        // function to sort the vector
         sort(ve.begin(), ve.end());
         for(auto i : ve)
         {
