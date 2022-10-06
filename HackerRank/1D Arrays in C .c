@@ -14,6 +14,7 @@ int main()
         {
             scanf("%d", &arr[i]);
         }
+        
         int SumOfArray = 0;
         for(int i = 0; i < n; i++)
         {
