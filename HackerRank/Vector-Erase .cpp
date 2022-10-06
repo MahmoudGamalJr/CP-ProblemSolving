@@ -16,6 +16,7 @@ int main()
 
         int n;
         cin >> n;
+        // size of the vector
         vector <int> ve(n);
         for(auto &i : ve)
         {
@@ -29,6 +30,7 @@ int main()
         ve.erase(ve.begin()+start-1,ve.begin()+end-1);
 
         int vec_size = ve.size();
+        // print the current size of the vector
         cout << vec_size << '\n';
         for(int i = 0 ; i < vec_size ; i++)
         {
