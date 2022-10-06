@@ -16,11 +16,13 @@ int main()
         int n;
         cin >> n;
         vector <int> ve(n);
+        // iterate to get the inputs
         for(auto &i : ve)
         {
             cin >> i;
         }
         int q;
+        // test cases
         cin >> q;
         for (int i = 0; i < q; i++) 
         {
