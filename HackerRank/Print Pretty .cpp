@@ -16,6 +16,7 @@ int main()
         ios_base :: sync_with_stdio(0),
         cin.tie(0);
 
+        // test cases
         int T; cin >> T;
         cout << setiosflags(ios::uppercase);
         cout << setw(0xf) << internal;
