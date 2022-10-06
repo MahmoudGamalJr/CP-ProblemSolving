@@ -14,6 +14,7 @@ int main()
         {
             scanf("%d", &arr[i]);
         }
+        // the loop start from n - 1 (the last element) to 0 (the first element)
         for(int i = n - 1; i >= 0 ; i--)
         {
             printf("%d ", arr[i]);
