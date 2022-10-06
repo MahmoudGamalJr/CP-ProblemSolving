@@ -11,14 +11,17 @@ using namespace std;
 
 int find_nth_term(int n, int a, int b, int c) 
 {
+    // base case 1
     if(n == 1)
     {
         return a;
     }
+    // base case 2
     else if (n == 2)
     {
         return b;
     }
+    // base case 3
     else if (n == 3)
     {
         return c;
