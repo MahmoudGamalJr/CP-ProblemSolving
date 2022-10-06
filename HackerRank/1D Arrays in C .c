@@ -18,6 +18,7 @@ int main()
         int SumOfArray = 0;
         for(int i = 0; i < n; i++)
         {
+             // summation of all elements
             SumOfArray = SumOfArray + arr[i];
         }
 
