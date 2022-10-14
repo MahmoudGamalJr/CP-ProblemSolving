@@ -1,5 +1,5 @@
-# Competitive Programming-Problems Solutions
-Competitive Programming (CP) and Problem Solving (PS)                                                                         
+# Competitive Programming - Problems Solutions
+Competitive Programming (CP) - Problem Solving (PS)                                                                         
 Some of my solutions for the problems that i encounter on Online Judges like (Codeforces, Atcoder, HackerRank,HackerEarth, Topcoder, URI, Leetcode, UVA, SOPJ) during my journey in Competitive Programming.                                                                                                                                    
 
  
