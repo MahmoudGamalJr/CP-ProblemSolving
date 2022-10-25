@@ -1,7 +1,7 @@
 // Problem Name: A. Bachgold Problem
 // Problem Link: https://codeforces.com/gym/404780/problem/A
 // Language: CPP
-// Submission Link: https://codeforces.com/gym/404780/submission/177879339
+// Submission Link: https://codeforces.com/gym/404780/submission/177884379
 // User: Mahmoud_Gamal_A.
 
 #include<bits/stdc++.h>
