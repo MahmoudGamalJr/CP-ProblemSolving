@@ -2,7 +2,7 @@
 // Problem Link: https://codeforces.com/gym/404780/problem/A
 // Language: CPP
 // Submission Link: https://codeforces.com/gym/404780/submission/177884379
-// User: Mahmoud_Gamal_A.
+// User: Mahmoud_Gamal_
 
 #include<bits/stdc++.h>
 
