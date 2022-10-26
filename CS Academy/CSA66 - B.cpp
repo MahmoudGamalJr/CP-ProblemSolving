@@ -41,7 +41,6 @@ int main()
         cout << min(many , b) << '\n';
 
 
-
 	 return 0;
 
 }
