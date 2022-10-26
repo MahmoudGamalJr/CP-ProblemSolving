@@ -41,6 +41,7 @@ int main()
                 ans++;
             }
         }
+	
         cout << ans << '\n';
 
 
