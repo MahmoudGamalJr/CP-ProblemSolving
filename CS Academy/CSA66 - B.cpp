@@ -38,6 +38,7 @@ int main()
                 many = min(many, b - res[i]);
             }
         }
+	
         cout << min(many , b) << '\n';
 
 
