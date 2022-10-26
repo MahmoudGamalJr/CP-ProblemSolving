@@ -40,8 +40,8 @@ int main()
                 ansB++;
             }
         }
+	
         cout << ansA << " " << ansB << '\n';
-
 
 
 	 return 0;
