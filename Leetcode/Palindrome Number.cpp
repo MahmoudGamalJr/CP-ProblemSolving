@@ -12,11 +12,11 @@ public:
             return false;
         }
 
-        int revertedNumber = 0;
-        while(x > revertedNumber) {
-            revertedNumber = revertedNumber * 10 + x % 10;
+        int reversedNumber = 0;
+        while(x > reversedNumber) {
+            reversedNumber = reversedNumber * 10 + x % 10;
             x /= 10
         
     }
-      return x == revertedNumber || x == revertedNumber/10;
+      return x == reversedNumber || x == reversedNumber/10;
 };
