@@ -12,15 +12,17 @@ using namespace std;
 
 int main()
 {
-        ll arr[50];
-        arr[0] = 0;
-        arr[1] = 1;
+        ll arrr[50];
+        arrr[0] = 0;
+        arrr[1] = 1;
         ll n, sum = 0 ; cin >> n;
+        
         if(n==0)
         {
             cout << 0;
             return 0;
         }
+        
         else if(n==1)
         {
             cout << 1;
@@ -28,11 +30,11 @@ int main()
         }
         for(int i = 2; i < 41;i++)
         {
-            arr[i] = arr[i-1] + arr[i-2];
+            arrr[i] = arrr[i-1] + arrr[i-2];
         }
         for(int i = 0; i <= n;i++)
         {
-            sum +=arr[i];
+            sum +=arrr[i];
         }
         cout << sum ;
 
